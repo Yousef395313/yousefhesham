@@ -1,0 +1,50 @@
+/* testimonial */
+.testimonial{
+    position: relative;
+    background-image: url("../images/background/background3.webp");
+    background-attachment: fixed;
+    height: 400px;
+
+}
+.testimonial .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.testimonial-content{
+    overflow: hidden;
+    padding: 100px 0;
+    width: 80%;
+    margin: auto;
+}
+.testimonial-item{
+    width:50%;
+    color: white;
+    float: left;   
+}
+.testimonial-item .testimonial-toplayer{
+    position: relative;
+    padding: 10px 2px 40px 100px;
+}
+.testimonial-item .testimonial-toplayer img{
+    position: absolute;
+    left: 10;
+    border-radius: 50%;
+
+}
+.testimonial-item .testimonial-toplayer h3{
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.testimonial-item .testimonial-toplayer span{
+    text-transform: capitalize;
+    color: #6195ff;
+
+}
+.testimonial-item-desc{
+    line-height: 1.5;
+}
